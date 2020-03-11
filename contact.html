@@ -14,15 +14,16 @@
         <table><tr> <td>
             <table>
                 <tr><td><label for=fname"">First name:</label></td>
-                        <td><input type="text"id="fname"name="fname"><br></td></tr>
+                        <td><input type="text"id="fname"name="fname" pattern="[a-z]{2,20}" minlength="4"required title="Your name should be minimum of 4"><br></td></tr>
                     <tr><td><label for="sname">Second name:</label></td>
-                        <td><input type="text"id="sname"name="sname"><br></td></tr>
+                        <td><input type="text"id="sname"name="sname"pattern="[a,z]{2,20
+                        }"minlength="4" required title="Your name should be minimum of 4"><br></td></tr>
                     <tr><td><label for="email">Email:</label></td>
                         <td><input type="email"id="email"name="email"><br></td></tr>
                     <tr><td><label for="">Telephone</label></td>
-                        <td><input type="tel" id="tel" name="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></td></tr>
+                        <td><input type="tel" id="tel" name="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{6]" required title="fotmat 251-345-6890"></td></tr>
                     <tr><td><label for="password">Password:</label></td>
-                        <td><input type="password" id="password" name="password"><br></td></tr>
+                        <td><input type="password" id="password" name="password" minlength="8" title="minimum length required 8"><br></td></tr>
                     <tr><td>country:
                         <td><select name="country"id=""><br>
                         <option value="">Ethiopia</option>
@@ -31,7 +32,7 @@
                         </select><br></td></tr>
                     <tr><td>what do you say?</td>
                     <tr><td><textarea name="comment" id="" cols="30" rows="10"></textarea></td></tr>
-                    <tr> <td><input type="submit"value="button"></td></tr>
+                    <tr> <td><input type="submit"value="Submit"></td></tr>
             </table> </td>
       
       
