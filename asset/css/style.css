@@ -35,8 +35,11 @@ nav>ul>li {
 
 }
 nav>ul>li>a {
-    text-decoration: none;
+    text-decoration: none;   
 }
+nav>ul>li>a:hover {
+background-color: white;
+} 
 .title {
     font-size: 23px;
     font-weight: bold;
