@@ -10,7 +10,6 @@ body
 
 header 
 {
-    background-color:burlywood;
     position:fixed;
     top: 0;
    width: 100%;
@@ -38,7 +37,7 @@ nav>ul>li>a {
     text-decoration: none;   
 }
 nav>ul>li>a:hover {
-background-color: white;
+background-color:burlywood;
 } 
 .title {
     font-size: 23px;
@@ -53,19 +52,16 @@ background-color: white;
     margin-top: 100px;
 
 }
-img {
+img{
+    float: center;
     width: 30%;
-    float: right;
     margin-left: 1.6%;
 }
-
-#gallery {
-    text-transform: uppercase;
+#gallery{
     text-align: center;
-    border-bottom: solid gold 2px;
-    padding-bottom: 15px;
     width: 100%;
-    
-
+    border-bottom: solid sandybrown 2px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
 }
 

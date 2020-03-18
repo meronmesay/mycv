@@ -1,3 +1,4 @@
+/*question two*/
 table {
     margin: auto;
 }
@@ -30,3 +31,58 @@ nav>ul>li>a {
 nav>ul>li>a:hover {
 background-color:burlywood;
 } 
+/*question one*/
+
+body{
+    
+    background-color: #bdc3c7;
+}
+h1{
+    color: #9b59b6;
+}
+h2{
+    color: orange;
+
+}
+div ul li{
+    color: blueviolet;
+}
+body p{
+    color: yellow;
+}
+input{
+    border: 3px red solid;
+}
+.active{
+    background-color: white;
+}
+#one{
+    border: rgb(53, 53, 255) solid 2px;
+}
+div p{
+    font-size: 25px;
+}
+input[type=text]:focus{
+    background-color: grey;
+}
+div em{
+    color: white;
+    font-size: 20px;
+}
+
+input[type=checkbox]:checked{
+    margin-left: 50px;
+}
+label{
+    text-transform: uppercase;
+}
+#one .position-tester p::first-letter{
+    font-size: 100px;
+   
+}
+h1:hover{
+    color: lightcoral;
+}
+a:visited{
+    color: gray;
+}
