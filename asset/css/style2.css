@@ -86,3 +86,36 @@ h1:hover{
 a:visited{
     color: gray;
 }
+/*question 3*/
+.bangladish {
+    background: green;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+}
+.bangladish figure {
+background: red;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin-left: 140px;
+margin-top: 50px;
+}
+#flag li {
+height: 100px;
+list-style-type: none;
+width: 400px;
+height: 50px;
+padding: 5px;
+
+
+}
+#flag li:nth-child(1){
+    background-color: coral;
+}
+#flag li:nth-child(2){
+    background-color: cornflowerblue;
+}
+#flag li:nth-child(3) {
+    background-color: crimson;
+}
