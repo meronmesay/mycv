@@ -1,0 +1,187 @@
+/*question 3*/
+body{
+    background-image: url(../images/pic00.jpg);
+    padding: 5px 5px;
+    margin: 100px;
+    background-size: cover;
+}
+header 
+{
+    position:fixed;
+    top: 0;
+   width: 100%;
+}
+nav>ul>li {
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+
+}
+nav>ul>li>a {
+    text-decoration: none;   
+}
+nav>ul>li>a:hover {
+background-color:burlywood;
+} 
+h2{
+    text-align: center;
+    text-decoration: black;
+}
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 200px;
+    height: 50px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-right: 170px;
+}
+.first{
+    float: left;
+}
+.second{
+    float: left;
+}
+.third{
+    float: left;
+}
+.yemen{
+    width: 200px;
+    height: 100px;
+}
+/*germany*/
+.top1{
+    background: black;
+}
+.bet1{
+    background: red;
+}
+.bot1{
+    background: yellow;
+}
+/*yemen*/
+.top2{
+    background: red;
+}
+.bet2{
+    background: white;
+}
+.bot2{
+    background: black;
+}
+/*netherlands*/
+.top3{
+    background: red;
+}
+.bet3{
+    background:white;
+}
+.bot3{
+    background:blue;
+}
+/*france*/
+.france{
+    width: 200px;
+    height: 180px;
+}
+.top4{
+    background: blue;
+}
+.bet4{
+    background: white;
+}
+.bot4{
+    background: red;
+}
+/*ireland*/
+.ireland{
+    width: 200px;
+    height: 180px;
+}
+.top5{
+    background: green;
+}
+.bet5{
+    background: white;
+}
+.bot5{
+    background: rgb(255, 136, 0);
+}
+/*aremenia*/
+.top6{
+    background:red;
+}
+.bet6{
+    background: blue;
+}
+.bot6{
+    background: tomato;
+}
+/*italy*/
+.italy{
+    width: 200px;
+    height: 180px;
+}
+.top7{
+    background: green;
+}
+.bet7{
+    background: white;
+}
+.bot7{
+    background: red;
+}
+/*Lithuania*/
+.top8{
+    background:yellow;
+}
+.bet8{
+    background: green;
+}
+.bot8{
+    background: red;
+}
+/*belguim*/
+.Belguim {
+    width: 200px;
+    height: 180px;
+}
+.top9{
+    background:black;
+}
+.bet9{
+    background:yellow;
+}
+.bot9{
+    background: red;
+}
+/*hungary*/
+.top10{
+    background:red;
+}
+.bet10{
+    background: white;
+}
+.bot10{
+    background:green;
+}
+/*colombia*/
+.topcol{
+    background: yellow;
+}
+.betcol{
+    background: blue;
+}
+.bottcol{
+    background: red;
+}
+/*Austria*/
+.top12{
+    background:red;
+}
+.between12{
+    background:white;
+}
+.bottom12{
+    background: red;
+}
