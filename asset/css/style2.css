@@ -33,7 +33,7 @@ background-color:burlywood;
 } 
 /*question one*/
 
-body{
+.bo{
     
     background-color: #bdc3c7;
 }
@@ -87,6 +87,11 @@ a:visited{
     color: gray;
 }
 /*question 3*/
+.new {
+    padding: 0px;
+    margin: 20px;
+    
+}
 .bangladish {
     background: green;
     width: 400px;
@@ -101,21 +106,51 @@ border-radius: 50%;
 margin-left: 140px;
 margin-top: 50px;
 }
-#flag li {
-height: 100px;
+.flag li {
 list-style-type: none;
 width: 400px;
 height: 50px;
 padding: 5px;
+}
+.flag li:nth-child(1){
+    background-color:red;
+}
+.flag li:nth-child(2){
+    background-color:white;
+}
+.flag li:nth-child(3) {
+    background-color: blue;
+}
+.fla li {
+    list-style-type: none;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    }
+.fla li:nth-child(1){
+        background-color:green;
+    }
+.fla li:nth-child(2){
+        background-color:yellow;
 
+    }
+.fla li:nth-child(3) {
+        background-color:red;
+    }
 
-}
-#flag li:nth-child(1){
-    background-color: coral;
-}
-#flag li:nth-child(2){
-    background-color: cornflowerblue;
-}
-#flag li:nth-child(3) {
-    background-color: crimson;
-}
+.fla1 li {
+        list-style-type: none;
+        width: 400px;
+        height: 50px;
+        padding: 5px;
+    }
+.fla1 li:nth-child(1){
+            background-color:green;
+    }
+.fla1 li:nth-child(2){
+            background-color:yellow;
+    
+    }
+.fla1 li:nth-child(3) {
+            background-color:red;
+    }    

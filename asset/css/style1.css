@@ -1,9 +1,8 @@
-body 
-{
 
-    background-color: white;
-    margin: 10px;
-
+body{
+        background-image: url(../images/pic00.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
 
 }
 
