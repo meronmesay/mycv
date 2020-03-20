@@ -16,7 +16,7 @@ nav>ul>li {
 }
 nav>ul>li>a {
     text-decoration: none;
-    border-bottom: 4px solid black;   
+    border-bottom: 1px solid black;   
 }
 nav>ul>li>a:hover {
 background-color:burlywood;
@@ -39,5 +39,5 @@ article {
     font-size: 15px;
     text-align: justify;
     line-height: 25px;
-    border-bottom:5px solid lightskyblue ;
+    border-bottom:1px solid black ;
 }

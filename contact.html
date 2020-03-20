@@ -3,75 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="asset/css/style.css">
     <title>Contact</title>
-    
-    <style>
-    body{
-        background-image: url(asset/images/pic00.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }  
-    </style>
-     <a href="index.html">Home</a>  |
-     <a href="contact.html">Contact</a> |
-     <a href="gallery1.html">Gallery</a>
-     <a href="blog.html">Blog</a> |
-     <a href="Myworks.html">Myworks</a>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>|
+                <li><a href="contact.html">Contact</a></li>|
+                <li><a href="gallery.html">Gallary</a></li>|
+                <li><a href="blog.html">Blog</a></li>|
+                <li><a href="myWork.html">My Works</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <img src="asset/images/pic7.jpg" alt=""class="profile" width="50" height="200">      
+        <div id= "name">
+        <h1>Meron Mesay</h1>
+        <h3>A student in Addis Ababa universty.</h3></div>
+     <div id="cont">
+        <h2>Contact me</h2>
+        <form method="POST/GET" action="mailto:it.meron.mesay@gmail.com">
+            <div> <label for="fName" > First name <input type="text" id="fName" name="fName"  pattern="[a-z]{2,30}"required title="Minimum length 2"> </label>   </div>
+            <div> <label for="fName" > Last name <input type="text" id="fName" name="fName"  pattern="[a-z]{2,30}"required title="Minimum length 2"> </label>   </div>
+            <div> <label for="email">Email  </label> <input type="email" id="email" name="email"></div>
+            <div> <label for="">Telephone  </label> <input type="tel" id="tel" name="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required title="Format: 251-032-2345"></div>
+            <div><label for="message" >What do you say? </label> </div>
+            <div>  <textarea name="" id="" cols="50" rows="15"></textarea></div>
+            <div><input type="submit" value="send"></div>
+
+        </form>
+     </div>
+
+     <div id="location">
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.org"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+     </div>
+   <footer>
+    <div>
+        <p align="center">Developed by Meron M. &copy;2020</p>
+    </div>
+     
+   </footer>
    
-    <hr>
-    <table>
-        <tr>
-            <td><img src="./asset/images/pic7.jpg" width="100" alt="picture" ></td>
-            <td> <h1>Meron Mesay</h1>
-                <h3>A student in Addis ababa universty</h3>
-                <p>My name is Meron. A student in Addis ababa universty.
-                    
-                </p></td>
-        </tr>
-    </table>  
-    
-    
-    <form method="post/get" action="mailto:meronmesaye2@gmail.com">
-        <table><tr> <td>
-            <table>
-                <tr><td><label for=fname"">First name:</label></td>
-                        <td><input type="text"id="fname"name="fname" pattern="[a-z]{2,20}" minlength="4"required title="Your name should be minimum of 4"><br></td></tr>
-                    <tr><td><label for="sname">Second name:</label></td>
-                        <td><input type="text"id="sname"name="sname"pattern="[a,z]{2,20
-                        }"minlength="4" required title="Your name should be minimum of 4"><br></td></tr>
-                    <tr><td><label for="email">Email:</label></td>
-                        <td><input type="email"id="email"name="email"><br></td></tr>
-                    <tr><td><label for="">Telephone</label></td>
-                        <td><input type="tel" id="tel" name="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{6]" required title="fotmat 251-345-6890"></td></tr>
-                    <tr><td><label for="password">Password:</label></td>
-                        <td><input type="password" id="password" name="password" minlength="8" title="minimum length required 8"><br></td></tr>
-                    <tr><td>country:
-                        <td><select name="country"id=""><br>
-                        <option value="">Ethiopia</option>
-                        <option value="">USA</option>
-                        <option value="">France</option>
-                        </select><br></td></tr>
-                    <tr><td>what do you say?</td>
-                    <tr><td><textarea name="comment" id="" cols="30" rows="10"></textarea></td></tr>
-                    <tr> <td><input type="submit"value="Submit"></td></tr>
-            </table> </td>
-      
-      
-       <td><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.org"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></td>
-
-    </tr>
-
-        </table>
-       </form>
-          
-          
-       
-       <hr>
-           <p align="center" >developed by meron mesay d. &copy;2020</p> 
-       <hr>
-       
 </body>
 </html>
