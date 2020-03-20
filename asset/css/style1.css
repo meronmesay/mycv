@@ -44,3 +44,19 @@ background-color:burlywood;
 #top{
     margin-top: 50px;
 }
+@media (min-width:900px){
+    #content{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+#bottom{
+    float:3;
+    order: 3;
+    margin-top: 50px;
+}  
+#between{
+    float:3;
+    order: 3;
+    margin-top: 50px;
+}  
